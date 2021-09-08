@@ -19,8 +19,15 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 18;
 
-
+if (votingAge > = 18){
+  console.log('task 1 a:', "Vote Now")
+} else {
+  if (votingAge < 18){
+    console.log('task 1 a:', "Denied")
+  }
+}
 
 /*
 Task 1b - Values
@@ -32,8 +39,13 @@ Do the following:
 
    HINT: no function required
 */
+let IcecreamFlavor = "Vanilla";
+const season = "fall";
 
-
+if (season === "fall") {
+  IcecreamFlavor = 'OrangeSherbet';
+}
+console.log('task 1 b:',IcecreamFlavor)
 
 
 
@@ -47,7 +59,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+const year = '1999';
+console.log('task 1 c:', Number(year));
 
 
 
@@ -60,10 +73,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a * b;
 }
-
+console.log('task 1 d:', multiply(10,7))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
